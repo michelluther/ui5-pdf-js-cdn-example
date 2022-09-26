@@ -12,8 +12,8 @@ sap.ui.define(
                 window
                     .WebViewer(
                         {
-                            path: "http://myPDFExampleSite.com:8082/",
-                            initialDoc: "http://myPDFExampleSite.com:8082/sample.pdf",
+                            path: "http://myPDFExampleSite.com:8081/",
+                            initialDoc: "http://myPDFExampleSite.com:8081/sample.pdf",
                             licenseKey: "qfJK89PB5O8Y7Fye5Bq5",
                         },
                         divForPDF
