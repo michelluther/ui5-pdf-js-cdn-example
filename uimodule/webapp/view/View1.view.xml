@@ -1,0 +1,22 @@
+<mvc:View controllerName="project1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    afterRendering="renderThePDF">
+    <Page id="page" title="{i18n>title}">
+
+        <VBox id="vbox1" class="sapUiSmallMargin">
+            <Text id="text1" text="Test 12345" />
+        </VBox>
+
+        <!-- SAP OUT OF THE BOX SOLUTION -->
+        <!--<PDFViewer id="_IDGenPDFViewer1" source="https://doc.rero.ch/record/324554/files/Tadic_Marko_2018_Var1.pdf" title="Ichbindertitel" displayType="Embedded">
+        </PDFViewer>-->
+
+        <!-- PDF.JS EXPRESS SOLUTION
+needs Wrapper -->
+         <html:div id='viewer' class="pdfviewer"></html:div>
+
+        <content />
+    </Page>
+</mvc:View>
